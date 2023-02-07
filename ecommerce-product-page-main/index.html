@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="headingText">
+          <div id="navMenu" class="nav-bar-visible">
+            <h1 id="navButton">&#9776;</h1>
+          </div>
+          <h2>sneakers</h2>
+        </div>
+        <div id="access">
+          <div id="cartDiv">
+            <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                fill="#69707D"
+                fill-rule="nonzero"
+              />
+            </svg>
+            <div id="noOfItemInCart" class="is-cart-item-displayed">
+              <p>0</p>
+            </div>
+          </div>
+          <div id="profile">
+            <img id="profile-img" src="./images/image-avatar.png" alt="" />
+          </div>
+        </div>
+      </header>
+      <div id="body">
+        <div id="productImage">
+          <div id="overallImg">
+            <div id="mainImg">
+              <img
+                id="displayImage"
+                src="./images/image-product-1.jpg"
+                alt=""
+              />
+              <div id="imgThumbnile">
+                <img
+                  id="thumbniles"
+                  src="./images/image-product-1.jpg"
+                  alt=""
+                  class="thumbnile-choosen thumbnile1"
+                />
+                <img
+                  id="thumbniles"
+                  src="./images/image-product-2.jpg"
+                  alt=""
+                  class="thumbnile2"
+                />
+                <img
+                  id="thumbniles"
+                  src="./images/image-product-3.jpg"
+                  alt=""
+                  class="thumbnile3"
+                />
+                <img
+                  id="thumbniles"
+                  src="./images/image-product-4.jpg"
+                  alt=""
+                  class="thumbnile4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="details">
+          <div id="productDetails">
+            <h3 id="companyName">SNEAKERS COMPANY</h3>
+            <div id="productName">
+              <h1 id="productHeading">Fall Limited Edition Sneakers</h1>
+              <div id="productDisc">
+                <p id="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Reiciendis veritatis mollitia, accusamus natus ratione ipsa
+                  optio debitis non voluptas cum assumenda, deleniti aliquid
+                  adipisci laborum nobis perspiciatis nisi dolorem ipsum.
+                </p>
+                <div id="price">
+                  <div id="currentPriceDetails">
+                    <h2 id="cPrice">&#36;125.00</h2>
+                    <div id="offer">
+                      <h5>50%</h5>
+                    </div>
+                  </div>
+                  <div id="prePrice">
+                    <del>&#36;250.00</del>
+                  </div>
+                </div>
+              </div>
+              <div id="buttonsDiv">
+                <div id="add_pop">
+                  <div id="pop"><p>&minus;</p></div>
+                  <div id="quantity"><p>0</p></div>
+                  <div id="add"><p>&plus;</p></div>
+                </div>
+                <button id="addToCart">
+                  <svg
+                    width="22"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                      fill="white"
+                      fill-rule="nonzero"
+                    />
+                  </svg>
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="nav-hidden">
+        <div id="nav-div">
+          <div id="nav-close">
+            <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+                fill="#69707D"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div id="nav-options">
+            <h5>Collection</h5>
+          </div>
+          <div id="nav-options">
+            <h5>Men</h5>
+          </div>
+          <div id="nav-options">
+            <h5>Women</h5>
+          </div>
+          <div id="nav-options">
+            <h5>About</h5>
+          </div>
+          <div id="nav-options">
+            <h5>Contact</h5>
+          </div>
+        </div>
+      </nav>
+      <div id="cartBox" class="cartDisplay">
+        <div id="cartHeader">
+          <h1>Cart</h1>
+          <div id="cartClose">
+            <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+                fill="#000000"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <div id="cartBody"></div>
+      </div>
+      <div
+        id="isMobileView"
+        class="imageDetailedView isImageDetailedViewDisplayed"
+      >
+        <div id="imageDetailedViewMain">
+          <div id="closeDiv">
+            <svg width="18" height="20" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+                fill="#ffffff"
+                fill-rule="evenodd"
+                class="closeImageView"
+                style="cursor: pointer"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
